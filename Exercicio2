@@ -1,0 +1,5 @@
+#  Crie um programa que calcule o fatorial de um número
+from math import factorial
+num = int(input('Qual numero voce quer saber o fatorial?'))
+f = factorial(num)
+print(f'O fatorial de {num} é {factorial(num)}')
